@@ -1,5 +1,7 @@
 
 #plot 4 
+##uses datasets and pre-processed variables in plot1.R
+
 png("plot4.png", width=480, height=480, units="px")
 par(mfrow=c(2,2), mar=c(4.1,4.6,3.1,2.1)) #change margins
 
