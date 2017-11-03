@@ -1,4 +1,5 @@
 #plot 3 energy sub metering layered plot
+##uses datasets and pre-processed variables in plot1.R
 
 png("plot3.png", width=480, height=480, units="px")
 plot(pwr.sml$datetime, pwr.sml$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
